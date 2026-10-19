@@ -1,6 +1,6 @@
 # Murshid privacy policy
 
-Last updated: 16 October 2026
+Last updated: 19 October 2026
 
 ## Who operates Murshid
 
@@ -158,6 +158,55 @@ Firebase Analytics and Crashlytics have their own product-specific retention and
 deletion controls, described by Google. The report and media schedule above does
 not itself delete those separate records. For those separate records,
 contact us about the deletion options available through the relevant provider.
+
+## Voluntary financial support
+
+Where available, you can choose optional one-time or monthly financial support.
+Contributing does not unlock app features. Paystack processes the payment, sends
+receipts and manages recurring billing. Monthly support continues until cancelled.
+
+Murshid's payment service, hosted on Railway, receives your chosen amount,
+currency, support frequency and a random payment reference. When you enter a
+receipt email in our checkout form, that service passes it to Paystack to start
+the payment. It does not save the email in its own storage or application logs.
+You enter payment details on Paystack's hosted pages. Murshid does not receive or
+store your full card number or security code. Paystack can make customer and
+transaction information available to the operator through its merchant services.
+
+The payment service checks transaction and subscription information with Paystack
+to confirm a contribution, recover an interrupted checkout and open management
+or cancellation controls for the correct subscription. It does not send your
+Murshid profile, guidance choices, worship progress or feedback to Paystack.
+Railway and Paystack also receive normal connection information needed to provide
+their services. Their policies describe their processing and international
+transfers: https://railway.com/legal/privacy and https://paystack.com/terms.
+
+This device saves the pending contribution and private credentials used to check
+its result and manage monthly support. Recovery credentials for abandoned monthly
+checkouts can remain so a payment completed later is still recognised. Clearing
+app storage or removing the app can remove access to those in-app controls; it
+does not cancel a Paystack subscription. Use Paystack's management controls or
+contact us if you need help cancelling.
+
+Checkout references, recovery links and safety records expire after 30 days and
+are removed by periodic cleanup, or earlier on access or server restart. A
+completed or reversed payment's recovery link is removed earlier. Newly created
+monthly records that were never submitted for payment become eligible for cleanup
+after 15 minutes. Periodic cleanup runs every ten minutes. Records for attempted monthly payments and verified
+subscription associations are retained while their management credentials remain
+supported, without an automatic expiry, including after cancellation. They contain
+random references, lifecycle states and, where verified, the subscription code and
+initial transaction identifier. They let us avoid losing an existing subscription
+or confusing it with a new contribution. The operator can access these records.
+
+Contact developerjamiu@gmail.com to request deletion of Murshid-held support data.
+Deleting recovery records can prevent later in-app verification or management and
+does not cancel recurring billing or erase Paystack's records. A device that still
+presents its saved recovery credential can cause verification records to be
+recreated, so contact us to coordinate removal. We will explain those effects and
+handle applicable provider requests with you. Our existing
+seven-day acknowledgement and 30-day response aim apply. Paystack retains its own
+records under its privacy policy and applicable obligations.
 
 ## Other services and permissions
 
